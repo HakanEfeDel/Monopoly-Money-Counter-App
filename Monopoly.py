@@ -49,8 +49,8 @@ for r in playersBank:
     
 print("Please put transactions in the format below.")
 print("<Payers Name> <space> <Takers Name> <Space> <Amount>")
-print("Example 1: Adnan bank 500")
-print("Example 2: Orhan Adnan 50")
+print("Example 1: Jack bank 500")
+print("Example 2: Bob Jack 50")
 while True:
     transaction = input("Please type the transaction. ")
     transaction1 = transaction.split()
@@ -95,21 +95,3 @@ while True:
     for r in playersBank:
         print(r[0], "has", r[1], "$.")
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
